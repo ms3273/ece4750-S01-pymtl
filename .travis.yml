@@ -48,5 +48,5 @@ before_script:
 #------------------------------------------------------------------------
 
 script:
- - py.test ../maxunit ../regincr ../regincr_soln --tb=no -r Ew
+ - py.test ../maxunit ../regincr --tb=no -r Ew
 
